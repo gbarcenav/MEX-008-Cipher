@@ -1,15 +1,15 @@
-#Cifrado César / SCML o The Secret Club for Music Lovers
+# Cifrado César / SCML o The Secret Club for Music Lovers
 
-##Definición del producto
+## Definición del producto
 SCML fue creado al notar que la música es un tema que une a las personas pero a la vez los separa, ya que existen diversos géneros musicales que no todos disfrutan.
 
 Lo que SCML quiere es acercar a las personas con gustos musicales similares bajo un mismo tema "el amor a la música"
 
-###¿Qué es SCML?
+### ¿Qué es SCML?
 Es un club secreto para los amantes de la música y sus muy variados géneros, nuestros eventos secretos se dan en espacios cotidianos y que nunca te imaginarías.
 Queremos acercarte a tus artistas favoritos, en un ambiete intímo y seguro para todos .
 
-###¿Cómo funciona?
+### ¿Cómo funciona?
 
 1. **Siguenos** en nuestras redes sociales y estár al pendiente de nuestra página web, para que te enteres cuando tendremos un evento. También puedes suscribirte a nuestra news-letter.
 
@@ -29,14 +29,14 @@ Queremos acercarte a tus artistas favoritos, en un ambiete intímo y seguro para
   hasta llegar al evento), pero seguro encontrarás a
   tu nuevo artista favorito.
 
-###Investigación de Usuario
+### Investigación de Usuario
 Para saber más a cerca a mi usuario realicé una encuesta utilizando la herramienta Google Forms en donde obtuve 15 respuestas, y llegué a las siguientes conclusiones:
 
 En su mayoría repondieron mujeres
-[Sexo](https://drive.google.com/open?id=15hvewEXT9GW56zCY_PcGTW-duNjbGr-W)
+ ![](sexo.jpg)
 
 Se obtuvieron más respuestas de personas en un rango de 26 - 30 años de edad
-[Edad](https://drive.google.com/open?id=10tevoa6kDC-EzZUPNA61R2WrmqVXZWQ3)
+![](edad.jpg)
 
 También las ocupaciones más recurrentes en los encuestados fue:
 
@@ -51,7 +51,7 @@ A la mayoría les gusta convivir en:
 - Restaurantes
 
 A todas las personas que respondieron les gusta ir a concietos, y la mayoría sí iría a un concierto secreto
-[Concierto](https://drive.google.com/open?id=1-gJruDxZrza6TJxTl49EdlFABmdjUcsr)
+![](concierto_secret.jpg)
 
 Los géneros musicales más escuchados son:
 
@@ -67,7 +67,7 @@ Y el los medios en dónde les llega más información de eventos culturales son:
 - Instagram
 - Twitter
 
-###Perfil del usuario
+### Perfil del usuario
 Gracias a los datos obtenidos en la encuesta se pudo definir el siguiente perfil
 
 Sexo: Femenino
@@ -80,28 +80,35 @@ Gustos:
 - Su género musical favorito es Rock
 - Utilizan RS (FB, IG Y TW) para enterare de eventos culturales
 
-##Interfaz del usuario
+## Interfaz del usuario
 Debido a los requisitos del proyecto se llegó a la conclusión que lo más viable para la codificación y decodificación de mensajes sería:
 
 - La creación de dos pantallas diferentes: Una para la codificación (Solicitud de asistencia a un concierto) con el GENERADOR DE MENSAJE SECRETO y otra para la decodificación (descubrir la localización del concierto) con LA sección TENGO UN CÓDIGO.
 
 A continuación las pantallas del primer prototipo que se testeo con ayuda de la aplicación Marvel:
 
-[Codificar](https://drive.google.com/open?id=1K1jQ3nfFZH9yua-kNwdeltnnT4cK3ECU)
+Codificar
+![](wire_scml-6.png)
 
-[Decodificar](https://drive.google.com/open?id=1mlAVi8HvU2ov0cV4SKfNIX8zBLkccW5b)
+Decodificar
+![](wire_scml-8.png)
 
 Y ahora un boceto no interactivo de como se pretende presentar la aplicación web
 
-[Home](https://drive.google.com/open?id=1vNEl-9ZrCH7ZlffFLYsysUhFMNij6u4e)
+Home
+![](interfaz-02.png)
 
-[Conciertos](https://drive.google.com/open?id=1g33S_AzGmJQHD28W9ikqyJBTC5r3FFUf)
+Conciertos
+![](interfaz-03.png)
 
-[Generador](https://drive.google.com/open?id=1AVKalSIJXcnjhaLBSGZ1nppmtDPqlcwq)
+Generador
+![](interfaz-04.png)
 
-[Gracias](https://drive.google.com/open?id=1Zxml1_yE-SlEK-sI9DYOAqAnS8deRvIn)
+Gracias
+![](interfaz-05.png)
 
-[Tengo un código](https://drive.google.com/open?id=1jhf03CDRRaoTYqQYSiQrGRM6krOBPiUi)
+Tengo un código
+![](interfaz-06.png)
 
 # Cifrado César
 
