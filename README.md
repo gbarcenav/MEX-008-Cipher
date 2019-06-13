@@ -33,7 +33,7 @@ Queremos acercarte a tus artistas favoritos, en un ambiete intímo y seguro para
 Para saber más a cerca a mi usuario realicé una encuesta utilizando la herramienta Google Forms en donde obtuve 15 respuestas, y llegué a las siguientes conclusiones:
 
 En su mayoría repondieron mujeres
- ![](sexo.jpg)
+![](sexo.jpg)
 
 Se obtuvieron más respuestas de personas en un rango de 26 - 30 años de edad
 ![](edad.jpg)
