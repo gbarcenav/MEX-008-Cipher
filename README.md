@@ -1,3 +1,108 @@
+#Cifrado César / SCML o The Secret Club for Music Lovers
+
+##Definición del producto
+SCML fue creado al notar que la música es un tema que une a las personas pero a la vez los separa, ya que existen diversos géneros musicales que no todos disfrutan.
+
+Lo que SCML quiere es acercar a las personas con gustos musicales similares bajo un mismo tema "el amor a la música"
+
+###¿Qué es SCML?
+Es un club secreto para los amantes de la música y sus muy variados géneros, nuestros eventos secretos se dan en espacios cotidianos y que nunca te imaginarías.
+Queremos acercarte a tus artistas favoritos, en un ambiete intímo y seguro para todos .
+
+###¿Cómo funciona?
+
+1. **Siguenos** en nuestras redes sociales y estár al pendiente de nuestra página web, para que te enteres cuando tendremos un evento. También puedes suscribirte a nuestra news-letter.
+
+2. **Únete** al club ¡Es gratis! (o inicia sesión)
+
+3. **Solicita** tus entradas incluyendo la pista, por código secreto (utiliza nuestra herramienta de generador de código secreto) ¡Debes ser rápido! nuestros eventos tienen cupo limitado por seguridad.
+
+4. **Espera** por nuestra respuesta, en dónde te enviaremos el código que te dejará descubrir la localización del evento (ve a **“Tengo un código”** para descubrirla) y tu **código de acceso**.
+
+5. **¡Listo!** Si eres seleccionado, **confirma** tu plaza. En algunas ocaciones podrás comprar hasta 6 entradas, en otras será gratis, pero podrás ir con un acompañante. También puedes venir solo, ¡Nunca sabes a quién puedes conocer!
+
+**SUGERENCIAS**:
+
+- Llega con tiempo para que no te pierdas de nada
+- ¡NO olvides tu código de acceso!
+- Ven con una mente abierta (no sabras el cartel
+  hasta llegar al evento), pero seguro encontrarás a
+  tu nuevo artista favorito.
+
+###Investigación de Usuario
+Para saber más a cerca a mi usuario realicé una encuesta utilizando la herramienta Google Forms en donde obtuve 15 respuestas, y llegué a las siguientes conclusiones:
+
+En su mayoría repondieron mujeres
+[Sexo](https://drive.google.com/open?id=15hvewEXT9GW56zCY_PcGTW-duNjbGr-W)
+
+Se obtuvieron más respuestas de personas en un rango de 26 - 30 años de edad
+[Edad](https://drive.google.com/open?id=10tevoa6kDC-EzZUPNA61R2WrmqVXZWQ3)
+
+También las ocupaciones más recurrentes en los encuestados fue:
+
+- Estudiante
+- Diseñador/a
+- Empleado
+
+A la mayoría les gusta convivir en:
+
+- Cafés
+- Casa
+- Restaurantes
+
+A todas las personas que respondieron les gusta ir a concietos, y la mayoría sí iría a un concierto secreto
+[Concierto](https://drive.google.com/open?id=1-gJruDxZrza6TJxTl49EdlFABmdjUcsr)
+
+Los géneros musicales más escuchados son:
+
+- Rock
+- Pop
+- Electrónica
+
+Pagarían desde $500 - $5000 pesos por ver a su artista favorito
+
+Y el los medios en dónde les llega más información de eventos culturales son:
+
+- Facebook
+- Instagram
+- Twitter
+
+###Perfil del usuario
+Gracias a los datos obtenidos en la encuesta se pudo definir el siguiente perfil
+
+Sexo: Femenino
+Edad: 21- 30 años
+Ocupación: Estudiante
+Lugares de convivencia favorito: Cafés
+Gustos:
+
+- Gustan de ir a conciertos (aunque no conozcan al artista)
+- Su género musical favorito es Rock
+- Utilizan RS (FB, IG Y TW) para enterare de eventos culturales
+
+##Interfaz del usuario
+Debido a los requisitos del proyecto se llegó a la conclusión que lo más viable para la codificación y decodificación de mensajes sería:
+
+- La creación de dos pantallas diferentes: Una para la codificación (Solicitud de asistencia a un concierto) con el GENERADOR DE MENSAJE SECRETO y otra para la decodificación (descubrir la localización del concierto) con LA sección TENGO UN CÓDIGO.
+
+A continuación las pantallas del primer prototipo que se testeo con ayuda de la aplicación Marvel:
+
+[Codificar](https://drive.google.com/open?id=1K1jQ3nfFZH9yua-kNwdeltnnT4cK3ECU)
+
+[Decodificar](https://drive.google.com/open?id=1mlAVi8HvU2ov0cV4SKfNIX8zBLkccW5b)
+
+Y ahora un boceto no interactivo de como se pretende presentar la aplicación web
+
+[Home](https://drive.google.com/open?id=1vNEl-9ZrCH7ZlffFLYsysUhFMNij6u4e)
+
+[Conciertos](https://drive.google.com/open?id=1g33S_AzGmJQHD28W9ikqyJBTC5r3FFUf)
+
+[Generador](https://drive.google.com/open?id=1AVKalSIJXcnjhaLBSGZ1nppmtDPqlcwq)
+
+[Gracias](https://drive.google.com/open?id=1Zxml1_yE-SlEK-sI9DYOAqAnS8deRvIn)
+
+[Tengo un código](https://drive.google.com/open?id=1jhf03CDRRaoTYqQYSiQrGRM6krOBPiUi)
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -25,7 +130,6 @@ La temática es libre. Tú debes pensar en qué situaciones de la vida real se n
 - Encriptar/cifrar una tarjeta de crédito.
 - Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
 - Mensajería secreta para parejas.
-
 
 ## Consideraciones generales
 
@@ -64,6 +168,7 @@ En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proces
 #### Interfaz de usuario (UI)
 
 La interfaz debe permitir al usuario:
+
 - Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que el cifrado desplace cada caracter.
 - Insertar un mensaje (texto) que queremos cifrar.
 - Ver el resultado del mensaje cifrado.
@@ -72,12 +177,12 @@ La interfaz debe permitir al usuario:
 
 #### Scripts / Archivos
 
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
+- `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
   así como una introducción a la aplicación, su funcionalidad y decisiones de
   diseño que tomaron.
-* `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
+- `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
   debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
-* `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
+- `src/cipher.js`: acá debes implementar el objeto cipher, el cual debe estar
   _exportado_ en el objeto global (`window`). Este objeto (`cipher`) debe
   contener dos métodos:
   - `cipher.encode(offset, string)`: `offset` es el número de posiciones que
@@ -86,9 +191,9 @@ La interfaz debe permitir al usuario:
   - `cipher.decode(offset, string)`: `offset` es el número de posiciones que
     queremos mover a la izquierda en el alfabeto y `string` el mensaje
     (texto) que queremos descifrar.
-* `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
+- `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
   o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
-* `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
+- `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests(pruebas ) para `cipher.encode()` y `cipher.decode()`.
 
 ## Parte opcional o “Hacker edition”
@@ -112,8 +217,7 @@ No se debe utilizar la _pseudo-variable_ `this`.
 Los tests unitarios deben cubrir un mínimo del 70% de _statements_, _functions_
 y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
-coverage_ para ver el nivel de cobertura de los tests usando el comando `npm run
-test`.
+coverage_ para ver el nivel de cobertura de los tests usando el comando `npm run test`.
 
 El _boilerplate_ incluye tests (pruebas) de ejemplo como punto de partida.
 
@@ -155,62 +259,61 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 ## Evaluación
 
 Te aconsejamos revisar [la rúbrica](https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRktPN4ilZtkRN5tUb3DVhgeihwlzk63_-JI3moA-bXpKDbHDioAK2H3qbrwWNb0Ql4wX22Tgv7-PDv/pubhtml)
-para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es una lista de todas las habilidades involucradas en este proyecto y que evaluaremos cuando lo  completes:
+para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es una lista de todas las habilidades involucradas en este proyecto y que evaluaremos cuando lo completes:
 
 ### General
 
 | Característica/Habilidad |
-|--------------------------|
-| Completitud |
+| ------------------------ |
+| Completitud              |
 
 ### Habilidades Blandas
 
-| Habilidad |
-|-----------|
+| Habilidad                    |
+| ---------------------------- |
 | Planificación y organización |
-| Autoaprendizaje |
-| Solución de problemas |
-| Dar y recibir feedback |
-| Adaptabilidad |
-| Trabajo en equipo |
-| Comunicación eficaz |
-| Presentaciones |
+| Autoaprendizaje              |
+| Solución de problemas        |
+| Dar y recibir feedback       |
+| Adaptabilidad                |
+| Trabajo en equipo            |
+| Comunicación eficaz          |
+| Presentaciones               |
 
 ### Habilidades Técnicas Front-end
 
-| Habilidad |
-|-----------|
-| **Computer Science (CS)** |
-| Lógica |
-| Arquitectura |
+| Habilidad                         |
+| --------------------------------- |
+| **Computer Science (CS)**         |
+| Lógica                            |
+| Arquitectura                      |
 | **System Control Managmen(SCM)t** |
-| Git |
-| GitHub |
-| **JavaScript** |
-| Estilo |
-| Nomenclatura/semántica |
-| Funciones/modularidad |
-| Tests |
-| **HTML** |
-| Validación |
-| Estilo |
-| Semántica |
-| **CSS** |
-| Dont Repeat YourSelf (DRY) |
-
+| Git                               |
+| GitHub                            |
+| **JavaScript**                    |
+| Estilo                            |
+| Nomenclatura/semántica            |
+| Funciones/modularidad             |
+| Tests                             |
+| **HTML**                          |
+| Validación                        |
+| Estilo                            |
+| Semántica                         |
+| **CSS**                           |
+| Dont Repeat YourSelf (DRY)        |
 
 ### Habilidades Técnicas UX
 
-| Habilidad |
-|-----------|
+| Habilidad       |
+| --------------- |
 | User Centricity |
 
-***
+---
 
 ## Pistas sobre cómo comenzar a trabajar en el proyecto
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/), 
+   condiciones, algo como [Atom](https://atom.io/),
    [Visual Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com) o cualquier otro de tu preferencia.
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
@@ -220,13 +323,12 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux como tu Sistema Operativo.
-3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   de [ este repositorio](https://github.com/Laboratoria/MEX-008-Cipher) de tu cohort, tus _coaches_ te compartirán un _link_ a un repositorio y te 
+3. Haz tu propio :fork*and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
+   de [ este repositorio](https://github.com/Laboratoria/MEX-008-Cipher) de tu cohort, tus \_coaches* te compartirán un _link_ a un repositorio y te
    darán acceso de lectura en ese repo.
-4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
-   tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm
-   install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
+4. :arrow*down: [Clona](https://help.github.com/articles/cloning-a-repository/)
+   tu \_fork* a tu computadora (copia local).
+5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto asume que has instalado [Node.js](https://nodejs.org/) (que
    incluye [npm](https://docs.npmjs.com/)).
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
    pruebas unitarias (unit tests) con el comando `npm run test`.
@@ -248,47 +350,50 @@ Diseño de experiencia de usuario (User Experience Design):
 
 Desarrollo Front-end:
 
-* Valores
-* Tipos
-* Variables
-* Control de flujo
-* Pruebas nitarias (Unit test)
-* [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
-* [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
-* [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
-* [Documentación de NPM](https://docs.npmjs.com/)
+- Valores
+- Tipos
+- Variables
+- Control de flujo
+- Pruebas nitarias (Unit test)
+- [Aprende más sobre `charCodeAt()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/charCodeAt)
+- [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
+- [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
+- [Documentación de NPM](https://docs.npmjs.com/)
 
 Herramientas:
+
 - GitHub y GitHub Pages.
 - [Guía de Scrum](https://www.scrumguides.org/docs/scrumguide/v1/scrum-guide-es.pdf): solamente para comenzar a entender cómo organizar tu trabajo.
 
 ## Checklist
-Esta sección está  para ayudarte a llevar un control de lo que vas completando.
+
+Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
 ### Parte Obligatoria
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
-  mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
-  cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
+
+- [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
+- [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+      el producto.
+- [ ] `README.md` explica claramente cómo el producto soluciona los
+      problemas/necesidades de los usuarios.
+- [ ] Usa VanillaJS.
+- [ ] No utiliza `this`.
+- [ ] Implementa `cipher.encode`.
+- [ ] Implementa `cipher.decode`.
+- [ ] Pasa linter con configuración provista.
+- [ ] Pasa pruebas unitarias.
+- [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+      mínimo del 50% de _branches_.
+- [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+      cifrado/descifrado.
+- [ ] Interfaz permite escribir un texto para ser cifrado.
+- [ ] Interfaz muestra el resultado del cifrado correctamente.
+- [ ] Interfaz permite escribir un texto para ser descifrado.
+- [ ] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
-* [ ] Cifra/descifra minúsculas
-* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
-* [ ] Modelo de negocio.
 
+- [ ] Cifra/descifra minúsculas
+- [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
+- [ ] Permite usar un `offset` negativo.
+- [ ] Modelo de negocio.
