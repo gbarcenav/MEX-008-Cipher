@@ -14,30 +14,29 @@
     />
   </head>
   <body>
-    <section>
-      <!--Titulo página-->
-      <header>
-        <div class="contenedor">
-          <div id="logo-home">
-            <img
-              id="logo"
-              src="../images/imagnes_aplicacion/home.png"
-              alt="logo"
-            />
-          </div>
-          <!--Menú-->
-          <nav>
-            <ul>
-              <li><a href="#">¿Qué es SCML?</a></li>
-              <li><a href="#">¿Cómo funciona?</a></li>
-              <li><a href="#">Próximos conciertos</a></li>
-              <li><a href="#">Generador de mensaje secreto</a></li>
-              <li><a href="#">Tengo un código</a></li>
-            </ul>
-          </nav>
+    <!--Titulo página-->
+    <header>
+      <div class="contenedor">
+        <div id="logo-home">
+          <img
+            id="logo"
+            src="../images/imagnes_aplicacion/home.png"
+            alt="logo"
+          />
         </div>
-      </header>
-
+        <!--Menú-->
+        <nav>
+          <ul>
+            <li><a href="#">¿Qué es SCML?</a></li>
+            <li><a href="#">¿Cómo funciona?</a></li>
+            <li><a href="#">Próximos conciertos</a></li>
+            <li><a href="#">Generador de mensaje secreto</a></li>
+            <li><a href="#">Tengo un código</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="principal">
       <!--Contenido principal-->
       <main>
         <!--Página de bienvenida-->
@@ -55,6 +54,33 @@
         </div>
       </main>
     </section>
+    <section id="decodificador">
+      <div>
+        <div class="caja-boton">
+          <label for="escribe-scodigo"></label>
+          <input
+            type="text"
+            id="codigosecreto"
+            required
+            placeholder="Escribe tu código secreto"
+          />
+        </div>
+        <div>
+          <input type="submit" value="Descubrir" class="botones" />
+        </div>
+      </div>
+
+      <div class="caja-boton">
+        <div>
+          <label for="m-descifrado"></label>
+          <input type="text" id="saber-loc" required />
+        </div>
+        <div>
+          <input type="submit" value="ok" class="botones" />
+        </div>
+      </div>
+    </section>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
