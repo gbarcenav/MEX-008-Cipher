@@ -1,13 +1,21 @@
 # Cifrado César / SCML o The Secret Club for Music Lovers
+<<<<<<< HEAD
 
 ## Definición del producto
 
+=======
+
+## Definición del producto
+>>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
 SCML fue creado al notar que la música es un tema que une a las personas pero a la vez los separa, ya que existen diversos géneros musicales que no todos disfrutan.
 
 Lo que SCML quiere es acercar a las personas con gustos musicales similares bajo un mismo tema "el amor a la música"
 
 ### ¿Qué es SCML?
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
 Es un club secreto para los amantes de la música y sus muy variados géneros, nuestros eventos secretos se dan en espacios cotidianos y que nunca te imaginarías.
 Queremos acercarte a tus artistas favoritos, en un ambiete intímo y seguro para todos .
 
@@ -32,6 +40,7 @@ Queremos acercarte a tus artistas favoritos, en un ambiete intímo y seguro para
   tu nuevo artista favorito.
 
 ### Investigación de Usuario
+<<<<<<< HEAD
 
 Para saber más a cerca a mi usuario realicé una encuesta utilizando la herramienta Google Forms en donde obtuve 15 respuestas, y llegué a las siguientes conclusiones:
 
@@ -42,6 +51,15 @@ Sexo
 Se obtuvieron más respuestas de personas en un rango de 26 - 30 años de edad
 Edad
 ![](images/encuesta/edad.jpg)
+=======
+Para saber más a cerca a mi usuario realicé una encuesta utilizando la herramienta Google Forms en donde obtuve 15 respuestas, y llegué a las siguientes conclusiones:
+
+En su mayoría repondieron mujeres
+![](sexo.jpg)
+
+Se obtuvieron más respuestas de personas en un rango de 26 - 30 años de edad
+![](edad.jpg)
+>>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
 
 También las ocupaciones más recurrentes en los encuestados fue:
 
@@ -56,8 +74,12 @@ A la mayoría les gusta convivir en:
 - Restaurantes
 
 A todas las personas que respondieron les gusta ir a concietos, y la mayoría sí iría a un concierto secreto
+<<<<<<< HEAD
 Concierto
 ![](images/encuesta/concierto_secret.jpg)
+=======
+![](concierto_secret.jpg)
+>>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
 
 Los géneros musicales más escuchados son:
 
@@ -74,7 +96,10 @@ Y el los medios en dónde les llega más información de eventos culturales son:
 - Twitter
 
 ### Perfil del usuario
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
 Gracias a los datos obtenidos en la encuesta se pudo definir el siguiente perfil
 
 Sexo: Femenino
@@ -88,7 +113,10 @@ Gustos:
 - Utilizan RS (FB, IG Y TW) para enterare de eventos culturales
 
 ## Interfaz del usuario
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
 Debido a los requisitos del proyecto se llegó a la conclusión que lo más viable para la codificación y decodificación de mensajes sería:
 
 - La creación de dos pantallas diferentes: Una para la codificación (Solicitud de asistencia a un concierto) con el GENERADOR DE MENSAJE SECRETO y otra para la decodificación (descubrir la localización del concierto) con LA sección TENGO UN CÓDIGO.
@@ -96,14 +124,22 @@ Debido a los requisitos del proyecto se llegó a la conclusión que lo más viab
 A continuación las pantallas del primer prototipo que se testeo con ayuda de la aplicación Marvel:
 
 Codificar
+<<<<<<< HEAD
 ![](images/pantallas/wire_scml-6.png)
 
 Decodificar
 ![](images/pantallas/wire_scml-8.png)
+=======
+![](wire_scml-6.png)
+
+Decodificar
+![](wire_scml-8.png)
+>>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
 
 Y ahora un boceto no interactivo de como se pretende presentar la aplicación web
 
 Home
+<<<<<<< HEAD
 ![](images/int/interfaz-02.png)
 
 Conciertos
@@ -121,6 +157,21 @@ Tengo un código
 También a continuación muestro un mapa de sitio
 Sitemap
 ![](images/sitemap_scml.png)
+=======
+![](interfaz-02.png)
+
+Conciertos
+![](interfaz-03.png)
+
+Generador
+![](interfaz-04.png)
+
+Gracias
+![](interfaz-05.png)
+
+Tengo un código
+![](interfaz-06.png)
+>>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
 
 # Cifrado César
 
