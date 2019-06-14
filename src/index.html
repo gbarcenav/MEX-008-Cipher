@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta charset="utf-8" />
+    <title>SCML</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+    <section>
+      <!--Titulo página-->
+      <header>
+        <div class="contenedor">
+          <div id="logo-home">
+            <img
+              id="logo"
+              src="../images/imagnes_aplicacion/home.png"
+              alt="logo"
+            />
+          </div>
+          <!--Menú-->
+          <nav>
+            <ul>
+              <li><a href="#">¿Qué es SCML?</a></li>
+              <li><a href="#">¿Cómo funciona?</a></li>
+              <li><a href="#">Próximos conciertos</a></li>
+              <li><a href="#">Generador de mensaje secreto</a></li>
+              <li><a href="#">Tengo un código</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!--Contenido principal-->
+      <main>
+        <!--Página de bienvenida-->
+        <header><!--Titulo sección (n/n)--></header>
+        <div id="root">
+          <h1>SCML</h1>
+        </div>
+        <div id="botones">
+          <!--<div id="boton1">-->
+          <button id="conciertos">Ver conciertos</button>
+          <!--</div>-->
+          <!--<div id="boton2">-->
+          <button id="codigo">Tengo un código</button>
+          <!--</div>-->
+        </div>
+      </main>
+    </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
