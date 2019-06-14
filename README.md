@@ -55,11 +55,15 @@ Edad
 Para saber más a cerca a mi usuario realicé una encuesta utilizando la herramienta Google Forms en donde obtuve 15 respuestas, y llegué a las siguientes conclusiones:
 
 En su mayoría repondieron mujeres
-![](sexo.jpg)
+
 
 Se obtuvieron más respuestas de personas en un rango de 26 - 30 años de edad
+<<<<<<< HEAD
 ![](edad.jpg)
 >>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
+=======
+
+>>>>>>> origin/master
 
 También las ocupaciones más recurrentes en los encuestados fue:
 
@@ -75,11 +79,15 @@ A la mayoría les gusta convivir en:
 
 A todas las personas que respondieron les gusta ir a concietos, y la mayoría sí iría a un concierto secreto
 <<<<<<< HEAD
+<<<<<<< HEAD
 Concierto
 ![](images/encuesta/concierto_secret.jpg)
 =======
 ![](concierto_secret.jpg)
 >>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
+=======
+
+>>>>>>> origin/master
 
 Los géneros musicales más escuchados son:
 
@@ -125,6 +133,7 @@ A continuación las pantallas del primer prototipo que se testeo con ayuda de la
 
 Codificar
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![](images/pantallas/wire_scml-6.png)
 
 Decodificar
@@ -135,10 +144,17 @@ Decodificar
 Decodificar
 ![](wire_scml-8.png)
 >>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
+=======
+
+
+Decodificar
+
+>>>>>>> origin/master
 
 Y ahora un boceto no interactivo de como se pretende presentar la aplicación web
 
 Home
+<<<<<<< HEAD
 <<<<<<< HEAD
 ![](images/int/interfaz-02.png)
 
@@ -162,16 +178,18 @@ Sitemap
 
 Conciertos
 ![](interfaz-03.png)
+=======
+>>>>>>> origin/master
 
-Generador
-![](interfaz-04.png)
 
-Gracias
-![](interfaz-05.png)
+Conciertos
 
+<<<<<<< HEAD
 Tengo un código
 ![](interfaz-06.png)
 >>>>>>> 0ba42602adf2e1c0c0c49558d7f5109b9e7891bd
+=======
+>>>>>>> origin/master
 
 # Cifrado César
 
