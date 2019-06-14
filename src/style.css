@@ -241,4 +241,37 @@ header nav ul li a:hover {
     padding: auto;
     float: left;
   }
-/* Estilos tipográficos ----------- */ /* General ----------- */ /* Head -------------- */
+/* Página Tengo un código ----------- */
+.caja-boton {
+  width: 50%;
+  overflow: hidden;
+}
+#codigosecreto {
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+  float: left;
+}
+.botones {
+  display: inline;
+  width: 90px;
+  height: 35px;
+  background-color: #ff7438;
+  color: white;
+  box-shadow: 3px 3px 10px gray;
+  font-family: "Catamaran 900", sans-serif;
+  font-size: 13px;
+  border: none;
+  border-radius: 10px;
+}
+#saber-loc {
+  width: 400px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 10px;
+  border: none;
+  float: left;
+}
+/* General ----------- */ /* Head -------------- */
