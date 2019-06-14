@@ -33,10 +33,10 @@ Queremos acercarte a tus artistas favoritos, en un ambiete intímo y seguro para
 Para saber más a cerca a mi usuario realicé una encuesta utilizando la herramienta Google Forms en donde obtuve 15 respuestas, y llegué a las siguientes conclusiones:
 
 En su mayoría repondieron mujeres
-![](sexo.jpg)
+
 
 Se obtuvieron más respuestas de personas en un rango de 26 - 30 años de edad
-![](edad.jpg)
+
 
 También las ocupaciones más recurrentes en los encuestados fue:
 
@@ -51,7 +51,7 @@ A la mayoría les gusta convivir en:
 - Restaurantes
 
 A todas las personas que respondieron les gusta ir a concietos, y la mayoría sí iría a un concierto secreto
-![](concierto_secret.jpg)
+
 
 Los géneros musicales más escuchados son:
 
@@ -88,27 +88,18 @@ Debido a los requisitos del proyecto se llegó a la conclusión que lo más viab
 A continuación las pantallas del primer prototipo que se testeo con ayuda de la aplicación Marvel:
 
 Codificar
-![](wire_scml-6.png)
+
 
 Decodificar
-![](wire_scml-8.png)
+
 
 Y ahora un boceto no interactivo de como se pretende presentar la aplicación web
 
 Home
-![](interfaz-02.png)
+
 
 Conciertos
-![](interfaz-03.png)
 
-Generador
-![](interfaz-04.png)
-
-Gracias
-![](interfaz-05.png)
-
-Tengo un código
-![](interfaz-06.png)
 
 # Cifrado César
 
