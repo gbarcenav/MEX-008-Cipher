@@ -40,14 +40,6 @@ Sexo
 ![](images/encuesta/sexo.jpg)
 
 Se obtuvieron más respuestas de personas en un rango de 26 - 30 años de edad
-Edad
-![](images/encuesta/edad.jpg)
-
-Para saber más a cerca a mi usuario realicé una encuesta utilizando la herramienta Google Forms en donde obtuve 15 respuestas, y llegué a las siguientes conclusiones:
-
-En su mayoría repondieron mujeres
-
-Se obtuvieron más respuestas de personas en un rango de 26 - 30 años de edad
 ![](images/encuesta/edad.jpg)
 
 También las ocupaciones más recurrentes en los encuestados fue:
@@ -63,8 +55,6 @@ A la mayoría les gusta convivir en:
 - Restaurantes
 
 A todas las personas que respondieron les gusta ir a concietos, y la mayoría sí iría a un concierto secreto
-<<<<<<< HEAD
-<<<<<<< HEAD
 Concierto
 ![](images/encuesta/concierto_secret.jpg)
 
