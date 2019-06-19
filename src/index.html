@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <title>SCML</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="../images/imagnes_aplicacion/home.png"
+      sizes="16x16"
+    />
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
@@ -16,17 +22,18 @@
   <body>
     <!--Titulo página-->
     <header>
+      <!--Menú-->
       <div class="contenedor">
-        <div id="logo-home">
-          <img
-            id="logo"
-            src="../images/imagnes_aplicacion/home.png"
-            alt="logo"
-          />
-        </div>
-        <!--Menú-->
-        <nav>
+        <nav class="menu-fixed">
           <ul>
+            <li>
+              <a href="#"
+                ><img
+                  id="home"
+                  src="../images/imagnes_aplicacion/home.png"
+                  alt="logo"
+              /></a>
+            </li>
             <li><a href="#">¿Qué es SCML?</a></li>
             <li><a href="#">¿Cómo funciona?</a></li>
             <li><a href="#">Próximos conciertos</a></li>
@@ -39,45 +46,72 @@
     <section id="principal">
       <!--Contenido principal-->
       <main>
-        <!--Página de bienvenida-->
-        <header><!--Titulo sección (n/n)--></header>
         <div id="root">
-          <h1>SCML</h1>
+          <h1>
+            SC<img
+              src="../images/imagnes_aplicacion/home.png"
+              alt="M"
+              id="m"
+            />L
+          </h1>
         </div>
-        <div id="botones">
-          <!--<div id="boton1">-->
-          <button id="conciertos">Ver conciertos</button>
-          <!--</div>-->
-          <!--<div id="boton2">-->
-          <button id="codigo">Tengo un código</button>
-          <!--</div>-->
+
+        <div id="botones-principalbox">
+          <button class="botones-principal" id="conciertos">
+            Ver conciertos
+          </button>
+          <button class="botones-principal" id="codigo">Tengo un código</button>
         </div>
       </main>
     </section>
-    <section id="decodificador">
-      <div>
-        <div class="caja-boton">
-          <label for="escribe-scodigo"></label>
-          <input
-            type="text"
-            id="codigosecreto"
-            required
-            placeholder="Escribe tu código secreto"
-          />
-        </div>
-        <div>
-          <input type="submit" value="Descubrir" class="botones" />
-        </div>
+
+    <!--Generados de mensaje secreto-->
+    <section id="generador-mensaje">
+      <div id="g-men"><h2>GENERADOR DE MENSAJE SECRETO</h2></div>
+      <div id="caja-offset">
+        <label for="escribe-offset">Número<br />de la suerte</label>
+        <input type="text" id="offset-numb" class="caja-ch" required />
+      </div>
+      <div class="caja-cipher">
+        <label for="escribe-tumensaje"
+          >Escribe la solicitud ganadora (Incluye la pista)</label
+        >
+        <input type="text" class="caja" id="mensaje-cifrar" required />
+        <input type="submit" value="secreto" class="botones" />
+      </div>
+
+      <div class="caja-cipher">
+        <label for="m-cifrado"></label>
+        <input
+          type="text"
+          class="caja"
+          id="mensaje-secreto"
+          placeholder="Aquí aparecera tu mensaje secreto"
+        />
+        <input type="submit" value="enviar" class="botones" />
+      </div>
+    </section>
+
+    <!--Tengo un código-->
+    <section id="tengo-codigo">
+      <div id="t-codigo"><h2>TENGO UN CÓDIGO</h2></div>
+      <div class="caja-boton">
+        <label for="escribe-scodigo"></label>
+        <input
+          type="text"
+          class="caja"
+          id="codigosecreto"
+          required
+          placeholder="Escribe tu código secreto"
+          required
+        />
+        <input type="submit" value="Descubrir" class="botones" />
       </div>
 
       <div class="caja-boton">
-        <div>
-          <label for="m-descifrado"></label>
-          <input type="text" id="saber-loc" required />
-        </div>
-        <div>
-          <input type="submit" value="ok" class="botones" />
-        </div>
+        <label for="m-descifrado"></label>
+        <input type="text" class="caja" id="saber-loc" required />
+        <input type="submit" value="ok" class="botones" />
       </div>
     </section>
 
