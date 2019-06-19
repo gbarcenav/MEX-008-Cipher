@@ -36,9 +36,11 @@
             </li>
             <li><a href="#">¿Qué es SCML?</a></li>
             <li><a href="#">¿Cómo funciona?</a></li>
-            <li><a href="#">Próximos conciertos</a></li>
-            <li><a href="#">Generador de mensaje secreto</a></li>
-            <li><a href="#">Tengo un código</a></li>
+            <li><a href="#conciertos">Próximos conciertos</a></li>
+            <li>
+              <a href="#generador-mensaje">Generador de mensaje secreto</a>
+            </li>
+            <li><a href="#tengo-codigo">Tengo un código</a></li>
           </ul>
         </nav>
       </div>
@@ -57,12 +59,77 @@
         </div>
 
         <div id="botones-principalbox">
-          <button class="botones-principal" id="conciertos">
+          <button type="submit" class="botones-principal" id="conciertos-but">
             Ver conciertos
           </button>
           <button class="botones-principal" id="codigo">Tengo un código</button>
         </div>
       </main>
+    </section>
+    <!--Conciertos-->
+    <section id="conciertos">
+      <div id="coci-titulo"><h2>CONCIERTOS</h2></div>
+      <div id="cuadros-conciertos">
+        <div class="cuadro">
+          <p class="pista">
+            Pista
+          </p>
+          <p>
+            Si te gusta convivir<br />
+            con la naturaleza
+          </p>
+          <p class="fech-hr">
+            Vie, 14 de junio<br />
+            7:00 p.m.
+          </p>
+          <div class="cont-boto">
+            <button class="botones-cuadros">
+              ¡Quiero ir!
+            </button>
+            <button class="botones-cuadros">Invitar</button>
+          </div>
+        </div>
+
+        <div class="cuadro">
+          <p class="pista">
+            Pista
+          </p>
+          <p>
+            Si te gusta mover<br />
+            la mata
+          </p>
+          <p class="fech-hr">
+            Sáb, 15 de junio<br />
+            5:00 p.m.
+          </p>
+          <div class="cont-boto">
+            <button class="botones-cuadros">
+              ¡Quiero ir!
+            </button>
+            <button class="botones-cuadros">Invitar</button>
+          </div>
+        </div>
+
+        <div class="cuadro">
+          <p class="pista">
+            Pista
+          </p>
+          <p>
+            Para bailar<br />
+            toda la noche
+          </p>
+          <p class="fech-hr">
+            Dom, 16 de junio<br />
+            9:00 p.m.
+          </p>
+          <div class="cont-boto">
+            <button class="botones-cuadros">
+              ¡Quiero ir!
+            </button>
+            <button class="botones-cuadros">Invitar</button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--Generados de mensaje secreto-->
@@ -89,6 +156,15 @@
           placeholder="Aquí aparecera tu mensaje secreto"
         />
         <input type="submit" value="enviar" class="botones" />
+      </div>
+    </section>
+
+    <!--Agradecimiento-->
+    <section id="gracias-solicitud">
+      <div id="gracias-inst">
+        <h3>¡Gracias!</h3>
+        <p id="resp-correo">Espera la repuesta en tu correo electrónico</p>
+        <input type="submit" value="Ok" class="boton-ok" />
       </div>
     </section>
 
