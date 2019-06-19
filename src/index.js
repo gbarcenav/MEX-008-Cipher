@@ -1,13 +1,6 @@
-// Función cifrar
-const encode = (str, offset) => {
-  str = str.toUpperCase();
-  let encryptedStr = "";
-  let encryptedChar = "";
-  for (let i = 0; i < str.length; i++) {
-    let charASCII = str.charCodeAt(i);
-    encryptedChar = ((charASCII - 65 + offset) % 26) + 65;
-    encryptedStr = encryptedStr + String.fromCharCode(encryptedChar);
-  }
-  return encryptedStr;
+irConciertos = evento => {
+  evento.preventDefault();
 };
-encode("Adios", 2);
+
+const concertSection = document.querySelector("#conciertos-but");
+concertSection.addEventListener("submit", irConciertos);
