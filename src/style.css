@@ -1,163 +1,21 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
+* {
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/* General ----------- */
-h1 {
-  font-size: 150px;
-  color: white;
-  font-family: "Righteous", cursive;
-}
-body {
-  background-image: url(https://images.unsplash.com/photo-1460667262436-cf19894f4774?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-}
-/* Página1 ----------- */
-#logo {
-  width: 50px;
-  margin-top: 20px;
-  float: left;
-  padding: 0px 20px 20px 0px;
-}
-
-nav {
-  margin-top: 25px;
-}
+/* ----- Menú -------*/
 
 .contenedor {
-  width: 95%;
+  width: 99%;
   max-width: 1000px;
   margin: auto;
-  overflow: hidden;
 }
 
 header nav {
-  margin-bottom: 10px;
+  margin-bottom: 10%;
+  background-color: rgba(255, 116, 56, 0.49);
+  border-radius: 10px;
 }
 
 header nav ul {
@@ -167,111 +25,177 @@ header nav ul {
 
 header nav ul li {
   float: left;
+  width: 16%;
+  height: auto;
+  font-family: "Catamaran 900", sans-serif;
+  font-size: 96%;
+  text-align: center;
 }
 
 header nav ul li a {
   display: block;
-  padding: 10px;
+  padding: 20%;
+  color: rgba(255, 255, 255, 1);
   text-decoration: none;
-  color: white;
-  font-family: "Catamaran 900", sans-serif;
 }
 
-header nav ul li a:hover {
-  background: #ff7438;
+.menu-fixed {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  max-width: 1000px;
 }
-/*#logo-home {
-  width: 30px;
-  padding: 10px 10px;
-  margin: 20px;
-  display: inline;
+
+#home {
+  width: 50%;
+  height: auto;
 }
-*/
+/* ----- Principal o Home -------*/
+
+#principal {
+  background-image: url(https://images.unsplash.com/photo-1460667262436-cf19894f4774?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
 
 #root {
-  width: 400px;
-  height: 116px;
-  padding: 150px 10px 10px 10px;
+  width: 45%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  padding: 5%;
+  padding-top: 20%;
+  overflow: hidden;
 }
-#botones {
-  width: 390px;
-  padding: 50px;
+
+#m {
+  width: 27%;
+}
+
+h1 {
+  font-size: 1100%;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Righteous", cursive;
+  display: block;
+  float: left;
+}
+
+#botones-principalbox {
+  width: 28%;
+  height: auto;
+  padding: 1%;
+  padding-bottom: 18%;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
+}
+.botones-principal {
+  width: 46%;
+  padding: 5% 3%;
+  margin: 2%;
+  background-color: rgba(255, 116, 56, 1);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 3px 3px 10px rgba(171, 171, 171, 1);
+  font-family: "Catamaran 900", sans-serif;
+  font-size: 1em;
+  border: none;
+  border-radius: 10px;
+  float: left;
+}
+/* ----- Generador de código secreto -------*/
+#generador-mensaje {
+  background-image: url(../images/imagnes_aplicacion/cabecera_generador.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+#g-men {
+  width: 60%;
+  height: auto;
+  padding: 5%;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caja-ch {
+  width: 5em;
+  margin-right: 5%;
+  height: 5em;
+  border-radius: 10px;
+  border-color: rgba(38, 38, 38, 1);
   display: block;
 }
 
-#conciertos {
-  display: inline;
-  width: 150px;
-  height: 35px;
-  margin: 20px;
-  background-color: #ff7438;
-  color: white;
-  box-shadow: 3px 3px 10px gray;
-  font-family: "Catamaran 900", sans-serif;
-  font-size: 13px;
-  border: none;
-  border-radius: 10px;
+#caja-offset {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  margin-bottom: 1%;
+  font-family: "Catamaran 400", sans-serif;
+  display: block;
 }
-#codigo {
-  display: inline;
-  width: 150px;
-  height: 35px;
-  margin: 20px;
-  background-color: #ff7438;
-  color: white;
-  box-shadow: 3px 3px 10px gray;
-  font-family: "Catamaran 900", sans-serif;
-  font-size: 13px;
-  border: none;
-  border-radius: 10px;
-}
-/*#boton1 {
-    width: 50%;
-    padding: auto;
-    float: left;
-  }
-  
-  #boton2 {
-    width: 50%;
-    padding: auto;
-    float: left;
-  }
-/* Página Tengo un código ----------- */
-.caja-boton {
-  width: 50%;
+.caja-cipher {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5%;
+  margin-bottom: 5%;
+  font-family: "Catamaran 400", sans-serif;
   overflow: hidden;
 }
-#codigosecreto {
-  width: 400px;
-  height: 100px;
-  margin: 20px;
-  border-radius: 10px;
-  border: none;
-  float: left;
+
+/* ----- Tengo un código -------*/
+#tengo-codigo {
+  background-image: url(../images/imagnes_aplicacion/cabecera.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
-.botones {
-  display: inline;
-  width: 90px;
-  height: 35px;
-  background-color: #ff7438;
-  color: white;
-  box-shadow: 3px 3px 10px gray;
+
+#t-codigo {
+  width: 30%;
+  height: auto;
+  padding: 5%;
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
   font-family: "Catamaran 900", sans-serif;
-  font-size: 13px;
-  border: none;
-  border-radius: 10px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
 }
-#saber-loc {
-  width: 400px;
-  height: 100px;
-  margin: 20px;
-  border-radius: 10px;
+
+.botones {
+  width: 10%;
+  padding: 1em 0.5em;
+  display: block;
+  background-color: rgba(255, 116, 56, 1);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 3px 3px 10px rgba(171, 171, 171, 1);
+  font-family: "Catamaran 900", sans-serif;
+  font-size: 100%;
   border: none;
+  border-radius: 10px;
   float: left;
 }
-/* General ----------- */ /* Head -------------- */
+
+.caja {
+  width: 80%;
+  margin-right: 5%;
+  height: 13em;
+  border-radius: 10px;
+  border-color: rgba(38, 38, 38, 1);
+  float: left;
+}
+
+.caja-boton {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+  margin-bottom: 5%;
+  overflow: hidden;
+}
