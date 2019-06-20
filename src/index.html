@@ -9,7 +9,6 @@
       href="../images/imagnes_aplicacion/home.png"
       sizes="16x16"
     />
-    <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
       rel="stylesheet"
@@ -18,6 +17,7 @@
       href="https://fonts.googleapis.com/css?family=Catamaran:500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--Titulo página-->
@@ -59,10 +59,20 @@
         </div>
 
         <div id="botones-principalbox">
-          <button type="submit" class="botones-principal" id="conciertos-but">
+          <!--<button type="button" class="botones-principal" id="conciertos-but">
             Ver conciertos
           </button>
-          <button class="botones-principal" id="codigo">Tengo un código</button>
+          -->
+          <a class="botones-principal" id="conciertos-but" href="#conciertos"
+            >Ver conciertos</a
+          >
+          <!--<button type="button" class="botones-principal" id="codigo">
+            Tengo un código
+          </button>
+        -->
+          <a class="botones-principal" id="codigo" href="#tengo-codigo"
+            >Tengo un código</a
+          >
         </div>
       </main>
     </section>
@@ -83,9 +93,11 @@
             7:00 p.m.
           </p>
           <div class="cont-boto">
-            <button class="botones-cuadros">
+            <!--<button class="botones-cuadros">
               ¡Quiero ir!
-            </button>
+            </button>-->
+            <a class="botones-cuadros" href="#generador-mensaje">¡Quiero ir!</a>
+
             <button class="botones-cuadros">Invitar</button>
           </div>
         </div>
@@ -103,9 +115,7 @@
             5:00 p.m.
           </p>
           <div class="cont-boto">
-            <button class="botones-cuadros">
-              ¡Quiero ir!
-            </button>
+            <a class="botones-cuadros" href="#generador-mensaje">¡Quiero ir!</a>
             <button class="botones-cuadros">Invitar</button>
           </div>
         </div>
@@ -123,28 +133,34 @@
             9:00 p.m.
           </p>
           <div class="cont-boto">
-            <button class="botones-cuadros">
-              ¡Quiero ir!
-            </button>
+            <a class="botones-cuadros" href="#generador-mensaje">¡Quiero ir!</a>
             <button class="botones-cuadros">Invitar</button>
           </div>
         </div>
       </div>
     </section>
 
-    <!--Generados de mensaje secreto-->
-    <section id="generador-mensaje">
+    <!--Generador de mensaje secreto-->
+    <section id="generador-mensaje" class="aparecer">
       <div id="g-men"><h2>GENERADOR DE MENSAJE SECRETO</h2></div>
-      <div id="caja-offset">
+      <div id="caja-offsetcod">
         <label for="escribe-offset">Número<br />de la suerte</label>
-        <input type="text" id="offset-numb" class="caja-ch" required />
+        <input
+          type="number"
+          id="offset-numb"
+          min="1"
+          max="99"
+          class="caja-ch"
+          required
+          value="0"
+        />
       </div>
       <div class="caja-cipher">
         <label for="escribe-tumensaje"
           >Escribe la solicitud ganadora (Incluye la pista)</label
         >
         <input type="text" class="caja" id="mensaje-cifrar" required />
-        <input type="submit" value="secreto" class="botones" />
+        <!--<input type="submit" value="secreto" class="botones" />-->
       </div>
 
       <div class="caja-cipher">
@@ -155,12 +171,14 @@
           id="mensaje-secreto"
           placeholder="Aquí aparecera tu mensaje secreto"
         />
-        <input type="submit" value="enviar" class="botones" />
+        <!--input type="submit" value="enviar" class="botones" />-->
+        <!--<a class="botones" href="#gracias-solicitud" id="env-agra">enviar</a>-->
+        <button id="env-agra" class="botones">enviar</button>
       </div>
     </section>
 
     <!--Agradecimiento-->
-    <section id="gracias-solicitud">
+    <section id="gracias-solicitud" class="desaparecer">
       <div id="gracias-inst">
         <h3>¡Gracias!</h3>
         <p id="resp-correo">Espera la repuesta en tu correo electrónico</p>
@@ -171,23 +189,35 @@
     <!--Tengo un código-->
     <section id="tengo-codigo">
       <div id="t-codigo"><h2>TENGO UN CÓDIGO</h2></div>
-      <div class="caja-boton">
-        <label for="escribe-scodigo"></label>
+      <div id="caja-offsetde">
+        <label for="escribe-offset">Repite tu número<br />de la suerte</label>
         <input
-          type="text"
-          class="caja"
-          id="codigosecreto"
+          type="number"
+          id="offset-des"
+          min="1"
+          max="99"
+          class="caja-ch"
           required
-          placeholder="Escribe tu código secreto"
-          required
+          value="0"
         />
-        <input type="submit" value="Descubrir" class="botones" />
+      </div>
+      <div class="caja-boton">
+        <label for="escribe-scodigo"> Escibe código secreto</label>
+        <input type="text" class="caja" id="codigosecreto" required />
+        <!--<input type="submit" value="Descubrir" class="botones" />-->
       </div>
 
       <div class="caja-boton">
         <label for="m-descifrado"></label>
-        <input type="text" class="caja" id="saber-loc" required />
-        <input type="submit" value="ok" class="botones" />
+        <input
+          type="text"
+          class="caja"
+          id="saber-loc"
+          placeholder="Aquí será nuestro concierto secreto"
+          required
+        />
+        <!-- <input type="submit" value="ok" class="botones" />-->
+        <a class="botones" href="#principal">ok</a>
       </div>
     </section>
 
