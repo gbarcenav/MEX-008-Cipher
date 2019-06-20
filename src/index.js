@@ -22,7 +22,7 @@ mensajeAcifrar.addEventListener("keyup", () => {
 });
 
 //Descifrar
-//const offsetDes = document.getElementById("offset-des");
+const offsetDes = document.getElementById("offset-des");
 let mensajeAdes = document.getElementById("codigosecreto");
 const mensajeDes = document.getElementById("saber-loc");
 
