@@ -110,7 +110,65 @@ h1 {
   text-decoration: none;
   text-align: center;
 }
+/* ----- ¿Qué es SCML? -------*/
+#que-es {
+  background-image: url(../images/imagnes_aplicacion/quees.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 
+#quees-titulo {
+  width: 30%;
+  height: auto;
+  padding: 5%;
+  padding-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quees-parr {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Catamaran 500", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#parrafo {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10em;
+  padding-bottom: 15em;
+}
+/* ----- ¿Cómo funciona? -------*/
+#funciona {
+  background-image: url(../images/imagnes_aplicacion/funciona.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+#funciona-titulo {
+  width: 30%;
+  height: auto;
+  padding: 5%;
+  padding-top: 12%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#funciona-parr {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Catamaran 500", sans-serif;
+  font-size: 1em;
+  text-align: justify;
+}
+
+#parrafo-funciona {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+}
 /* ----- Conciertos -------*/
 #conciertos {
   background-image: url(../images/imagnes_aplicacion/cabecera_concietos.jpg);
