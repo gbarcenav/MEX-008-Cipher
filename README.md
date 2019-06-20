@@ -13,7 +13,7 @@ Queremos acercarte a tus artistas favoritos, en un ambiete intímo y seguro para
 
 ### ¿Cómo funciona?
 
-1. **Siguenos** en nuestras redes sociales y estár al pendiente de nuestra página web, para que te enteres cuando tendremos un evento. También puedes suscribirte a nuestra news-letter.
+1. **Síguenos** en nuestras redes sociales y estár al pendiente de nuestra página web, para que te enteres cuando tendremos un evento. También puedes suscribirte a nuestra news-letter.
 
 2. **Únete** al club ¡Es gratis! (o inicia sesión)
 
